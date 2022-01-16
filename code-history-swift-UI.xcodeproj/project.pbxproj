@@ -11,6 +11,8 @@
 		5234F5D527932F99006FDCCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234F5D427932F99006FDCCB /* ContentView.swift */; };
 		5234F5D727932F9D006FDCCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5234F5D627932F9D006FDCCB /* Assets.xcassets */; };
 		5234F5DA27932F9D006FDCCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5234F5D927932F9D006FDCCB /* Preview Assets.xcassets */; };
+		52DD987C27942FF100655D10 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD987B27942FF100655D10 /* Question.swift */; };
+		52DD987E2794352D00655D10 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD987D2794352D00655D10 /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5234F5D427932F99006FDCCB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5234F5D627932F9D006FDCCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5234F5D927932F9D006FDCCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52DD987B27942FF100655D10 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		52DD987D2794352D00655D10 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				5234F5D227932F99006FDCCB /* code_history_swift_UIApp.swift */,
 				5234F5D427932F99006FDCCB /* ContentView.swift */,
+				52DD987D2794352D00655D10 /* ChoiceTextView.swift */,
+				52DD987B27942FF100655D10 /* Question.swift */,
 				5234F5D627932F9D006FDCCB /* Assets.xcassets */,
 				5234F5D827932F9D006FDCCB /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DD987C27942FF100655D10 /* Question.swift in Sources */,
 				5234F5D527932F99006FDCCB /* ContentView.swift in Sources */,
+				52DD987E2794352D00655D10 /* ChoiceTextView.swift in Sources */,
 				5234F5D327932F99006FDCCB /* code_history_swift_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
