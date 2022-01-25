@@ -8,38 +8,21 @@
 import SwiftUI
 
 struct GameView: View {
-    let question = Question(
-            questionText: "What was the first computer bug?",
-            possibleAnswers: ["Ant", "Beetle", "Moth", "Fly"],
-            correctAnswerIndex: 2)
-    @State var mainColor = GameColor.main
+    @StateObject var viewModel = GameViewModel()
     var body: some View {
         ZStack{
-            mainColor.ignoresSafeArea()
+            GameColor.main.ignoresSafeArea()
             VStack{
-                Text("1 / 10")
+                Text(viewModel.questionProgressText)
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                Text(question.questionText)
-                    .font(.largeTitle)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                HStack{
-                    ForEach(0..<question.possibleAnswers.count) { answerIndex in
-                        Button(action: {
-                            print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                            mainColor = answerIndex == question.correctAnswerIndex ? .green : .red
-                          }, label: {
-                            ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
-                          })
-                    }
-                }
-                .padding(.bottom, 5)
+                QuestionView(question: viewModel.currentQuestion)
             }
         }
         .foregroundColor(.white)
+        .navigationBarHidden(true)
+        .environmentObject(viewModel)
     }
 }
 
