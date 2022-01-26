@@ -37,6 +37,7 @@
 		528DB61527A181860045E479 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		528DB61727A18BDB0045E479 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 		5298D820279858CF002A7C79 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		529EEC4A27A1AD7200684514 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52DD987B27942FF100655D10 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		52DD987D2794352D00655D10 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +65,7 @@
 		5234F5C627932F99006FDCCB = {
 			isa = PBXGroup;
 			children = (
+				529EEC4A27A1AD7200684514 /* README.md */,
 				5234F5D127932F99006FDCCB /* code-history-swift-UI */,
 				5234F5D027932F99006FDCCB /* Products */,
 			);
